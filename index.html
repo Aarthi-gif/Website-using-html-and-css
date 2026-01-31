@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nanban Catering</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap" rel="stylesheet">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon.jpg">
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow animate__animated animate__fadeInDown">
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Nanban Catering Logo" width="60" height="40" class="d-inline-block align-text-top me-2">
+            <a class="navbar-brand" href="#">Nanban Catering</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="visually-hidden">Toggle navigation</span>
+                </button>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#buffet">Buffet Stall</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Landing Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-slideshow">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80" class="hero-slide active" alt="Slide 1">
+            <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=1500&q=80" class="hero-slide" alt="Slide 2">
+            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=1500&q=80" class="hero-slide" alt="Slide 3">
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=1500&q=80" class="hero-slide" alt="Slide 4">
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1500&q=80" class="hero-slide" alt="Slide 5">
+      
+        </div>
+        <div class="container hero-content animate__animated animate__zoomIn">
+            
+            <h1>Authentic Indian Catering</h1>
+            <p>Experience the vibrant flavors of India at your next event. <br>We bring tradition, taste, and color to your celebrations!</p>
+            <a href="#contact" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Book Now</a>
+        </div>
+        <img src="assets/images/biryani.png" class="right-img" alt="Nanban Catering ">
+
+    </section>
+
+    <!-- About Us -->
+    <section id="about">
+        <div class="container">
+            <h1 class="section-title animate__animated animate__fadeInLeft">About Us</h1>
+            <div class="row align-items-center">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <div class="vegfood-box mb-3">
+                        <img src="assets/images/vegfood.jpg" class="d-block w-100 about-media" id="veg-img">
+                    </div> 
+                    <p>
+                        With over 15 years of experience, Indian Catering specializes in delivering authentic Indian cuisine for weddings, parties, and corporate events. Our chefs use traditional recipes and the freshest ingredients to create a memorable culinary experience. We pride ourselves on our hospitality, attention to detail, and vibrant presentation.
+                    </p>
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight">
+
+  <div id="aboutCarousel"
+       class="carousel slide carousel-fade rounded shadow"
+       data-bs-ride="carousel"
+       data-bs-interval="2000">
+
+    <div class="carousel-inner rounded">
+
+      <div class="carousel-item active">
+        <img src="assets/images/about1.png" class="d-block w-100 about-media">
+      </div>
+
+      <div class="carousel-item">
+        <img src="assets/images/about2.png" class="d-block w-100 about-media">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/about3.png" class="d-block w-100 about-media">
+      </div>
+      <div class="carousel-item">
+        <video class="d-block w-100 about-media" 
+         autoplay muted loop playsinline controls preload="auto">
+         <source src="assets/images/about4.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+        </video>
+    </div>
+     
+    </div>
+
+    <!-- Optional arrows -->
+    <button class="carousel-control-prev" type="button"
+            data-bs-target="#aboutCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button"
+            data-bs-target="#aboutCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+
+</div>
+
+            </div>
+        </div>
+        <div class="stats-section">
+  <div class="stats-container">
+    <div class="stat-box">
+      <span class="stat-number count">19</span>
+      <span class="stat-divider">|</span>
+      <span class="stat-text">Years of <strong>EXPERIENCE</strong></span>
+    </div>
+
+    <div class="stat-box">
+      <span class="stat-number count">2000</span>
+      <span class="stat-divider">|</span>
+      <span class="stat-text">+ Events <strong>COMPLETED</strong></span>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+    <!-- Menu -->
+   <section id="menu" style="background: rgba(255,255,255,0.05);">
+    <div class="container">
+        <h2 class="section-title animate__animated animate__fadeInRight">Our Menu</h2>
+
+        <div class="row justify-content-center mb-5 g-3">
+            <!-- Tiffin -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="tiffin-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp" style="background-image: url('assets/images/tiffin.png');">
+                        <span class="menu-type-icon">🍱</span>
+                        <a href="#tiffin" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Tiifin</a>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Lunch -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="lunch-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-1s" style="background-image: url('assets/images/lunch.png');">
+                        <span class="menu-type-icon">🍛</span>
+                         <a href="#lunch" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Lunch</a>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Wedding -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="wedding-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-2s" style="background-image: url('assets/images/tiffin.png');">
+                        <span class="menu-type-icon">💍</span>
+                         <a href="#wedding" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Wedding</a>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Dinner -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="dinner-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-3s" style="background-image: url('assets/images/lunch.png');">
+                        <span class="menu-type-icon">🍽️</span>
+                        <a href="#dinner" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Dinner</a>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Kari Virunthu -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="kari-virunthu-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-4s" style="background-image: url('assets/images/kari-virunthu.jpg');">
+                        <span class="menu-type-icon">🍽️</span>
+                        <a href="#kari-virunthu" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Kari Virunthu</a>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Baby Shower -->
+            <div class="col-6 col-md-3 mb-3">
+                <a href="baby-shower-menu.html" class="text-decoration-none">
+                    <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-5s" style="background-image: url('assets/images/vegfood.jpg');">
+                        <span class="menu-type-icon">🎉</span>
+                        <a href="#baby-shower" class="btn btn-theme btn-lg animate__animated animate__pulse animate__infinite">Baby Shower</a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Buffet Stall -->
+    <section id="buffet">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInLeft">Buffet Stall</h2>
+            <div class="row g-4 mb-4">
+                <div class="col-12 mb-3">
+                    <p class="lead">Our buffet stalls are designed to add a touch of Indian festivity to your event. With live counters, vibrant decor, and a wide variety of dishes, we ensure your guests enjoy both the food and the experience. Choose from North Indian, South Indian, and fusion themes.</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="boat-buffet.html" class="text-decoration-none">
+                        <div class="menu-type-card animate__animated animate__fadeInUp" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);">
+                            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Boat Buffet" style="border-radius:14px;width:120px;height:120px;object-fit:cover;margin-bottom:12px;">
+                            <div style="font-size:1.1rem;font-weight:700;">Boat Buffet</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="buffet2.html" class="text-decoration-none">
+                        <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-1s" style="background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);">
+                            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Buffet 2" style="border-radius:14px;width:120px;height:120px;object-fit:cover;margin-bottom:12px;">
+                            <div style="font-size:1.1rem;font-weight:700;">Buffet 2</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="buffet3.html" class="text-decoration-none">
+                        <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-2s" style="background: linear-gradient(135deg, #f9d423 0%, #ff4e50 100%);">
+                            <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80" alt="Buffet 3" style="border-radius:14px;width:120px;height:120px;object-fit:cover;margin-bottom:12px;">
+                            <div style="font-size:1.1rem;font-weight:700;">Buffet 3</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="buffet4.html" class="text-decoration-none">
+                        <div class="menu-type-card animate__animated animate__fadeInUp animate__delay-3s" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);">
+                            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Buffet 4" style="border-radius:14px;width:120px;height:120px;object-fit:cover;margin-bottom:12px;">
+                            <div style="font-size:1.1rem;font-weight:700;">Buffet 4</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" style="background: rgba(255,255,255,0.05); padding-top: 100px; padding-bottom: 100px;">
+    <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInRight">Gallery</h2>
+            <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                <div class="carousel-inner rounded shadow" style="max-width:900px;max-height:520px;margin:auto;">
+                    <div class="carousel-item active">
+                        <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Gallery 1" style="object-fit:cover;height:520px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Gallery 2" style="object-fit:cover;height:520px;">
+                    </div>
+                    <div class="carousel-item">
+                        <video class="d-block w-100" controls autoplay loop muted poster="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80" style="object-fit:cover;height:520px;">
+                            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Gallery 3" style="object-fit:cover;height:520px;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=800&q=80" class="d-block w-100" alt="Gallery 4" style="object-fit:cover;height:520px;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInLeft">Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner testimonial-carousel-inner">
+            <style>
+            .testimonial-carousel-inner .carousel-item {
+                transition: transform 0.8s cubic-bezier(0.77,0,0.18,1);
+            }
+            </style>
+                        <div class="carousel-item active">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">The food was absolutely delicious and the presentation was beautiful. Our guests loved the live chaat counter!</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Priya S.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp animate__delay-1s">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">Professional service and authentic flavors. Highly recommended for any Indian event!</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Rahul M.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp animate__delay-2s">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">The buffet stall was a hit at our wedding. Thank you for making our day special!</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Anjali K.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">Amazing variety and taste! The desserts were a highlight for everyone.</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Sunil D.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp animate__delay-1s">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">Prompt service and courteous staff. Will book again for sure!</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Meena T.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 d-flex">
+                                    <div class="testimonial-card animate__animated animate__fadeInUp animate__delay-2s">
+                                        <span class="quote-mark left">“</span>
+                                        <span class="quote-mark right">”</span>
+                                        <p style="font-size:1.2rem;position:relative;z-index:2;">Our corporate event was a success thanks to your catering. Highly professional!</p>
+                                        <div class="testimonial-name animate__animated animate__fadeInLeft" style="margin-top:18px;font-size:1.1rem;font-weight:700;color:#ff512f;letter-spacing:1px;z-index:2;">
+                                            <span style="background:#fffbe6;padding:6px 18px;border-radius:20px;box-shadow:0 2px 8px #ff512f22;display:inline-block;">- Rajesh P.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+        <section id="contact" style="background: rgba(255,255,255,0.05);">
+            <div class="container">
+                <h2 class="section-title animate__animated animate__fadeInRight">Contact Us</h2>
+                <div class="contact-container row justify-content-center align-items-stretch">
+                    <div class="col-md-6 animate__animated animate__fadeInLeft">
+                        <div class="contact-form-box p-4 mb-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name*</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email*</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Phone</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="" inputmode="tel">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message*</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-theme">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animate__animated animate__fadeInRight">
+                        <div class="contact-info-box p-4 mb-4 h-100">
+                            <h5>Our Location</h5>
+                            <div class="ratio ratio-16x9 mb-3">
+                                <iframe src="https://www.google.com/maps?q=11.3057946,76.9350865&z=17&output=embed" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <p>
+                                <strong>Address:</strong> 1 Floor, Chozha Complex,<br>Ooty Main Road,<br>Mettupalayam, Coimbatore - 641301<br>
+                                <strong>Phone:</strong> +91 8015644868<br>
+                                <strong>Email:</strong> nanbancatering.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+        <footer class="footer animate__animated animate__fadeInUp">
+            <div class="container">
+                <div class="footer-inner py-3">
+                    <div class="footer-col">
+                        <div class="footer-brand">Nanban Catering</div>
+                        <div class="footer-address">
+                            <div><strong>Office:</strong><br>1 Floor, Chozha Complex,<br>Ooty Main Road,<br>Mettupalayam, Coimbatore - 641301</div>
+                            <div class="mt-2"><strong>Phone:</strong> +91 8015644868</div>
+                            <div><strong>Email:</strong> nanbancatering.com</div>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <div class="footer-links-title mb-2" style="color:#ffe0b2;font-weight:600;letter-spacing:1px;">Quick Links</div>
+                        <nav class="footer-quick-links" aria-label="Footer quick links">
+                            <a href="#home">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#menu">Menu</a>
+                            <a href="#buffet">Buffet</a>
+                            <a href="#gallery">Gallery</a>
+                            <a href="#testimonials">Testimonials</a>
+                            <a href="#contact">Contact</a>
+                        </nav>
+                    </div>
+                    <div class="footer-col d-flex flex-column align-items-end footer-newsletter">
+                        <div class="footer-links-title mb-2" style="color:#ffe0b2;font-weight:600;letter-spacing:1px;">Stay in touch</div>
+                        <form class="d-flex mb-2" onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+                            <div class="input-group" style="max-width:360px;">
+                                <input type="email" class="form-control" placeholder="Enter your email" aria-label="Subscribe email" required>
+                                <button class="btn" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                        <div class="footer-social">
+                            <a href="#" target="_blank" aria-label="Instagram">Instagram</a>
+                            <a href="#" target="_blank" aria-label="Facebook">Facebook</a>
+                            <a href="#" target="_blank" aria-label="WhatsApp">WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+                <hr style="border-color: rgba(255,255,255,0.12);">
+                <div class="text-center small py-3" style="color:#fffbe6;">
+                    &copy; 2011 Nanban Catering. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    <!-- Floating Action Buttons Stack -->
+    <div class="fab-stack">
+        <!-- Home (Arrow Up) -->
+        <a href="#home" class="fab-btn" title="Back to Top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8" fill="#fff"/>
+                <path d="M8 11.5a.5.5 0 0 1-.5-.5V6.207L6.354 7.354a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 1 1-.708.708L8.5 6.207V11a.5.5 0 0 1-.5.5z" fill="#ff512f"/>
+            </svg>
+        </a>
+        <!-- WhatsApp -->
+        <a href="https://wa.me/918015644868" class="fab-btn" target="_blank" title="Chat with us on WhatsApp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.875 7.875 0 0 0 8.003 0C3.582 0 .003 3.582.003 8c0 1.409.37 2.77 1.07 3.97L0 16l4.13-1.08A7.963 7.963 0 0 0 8.003 16c4.418 0 7.997-3.582 7.997-8 0-2.13-.832-4.13-2.399-5.674zm-5.598 12.1a6.6 6.6 0 0 1-3.357-.92l-.24-.143-2.45.64.654-2.39-.156-.246A6.57 6.57 0 0 1 1.4 8c0-3.627 2.973-6.6 6.603-6.6 1.765 0 3.422.687 4.67 1.934A6.57 6.57 0 0 1 14.6 8c0 3.627-2.973 6.6-6.597 6.6zm3.623-4.982c-.198-.099-1.174-.579-1.355-.646-.181-.066-.314-.099-.447.099-.132.198-.513.646-.63.779-.116.132-.232.148-.43.05-.198-.099-.836-.308-1.593-.983-.589-.525-.986-1.17-1.102-1.368-.116-.198-.012-.305.087-.403.089-.088.198-.23.297-.346.099-.116.132-.198.198-.33.066-.132.033-.248-.017-.347-.05-.099-.447-1.08-.612-1.48-.161-.388-.325-.335-.447-.341l-.381-.007c-.132 0-.347.05-.53.248-.182.198-.695.678-.695 1.653 0 .975.712 1.917.812 2.05.099.132 1.402 2.14 3.4 2.917.476.164.846.262 1.135.336.477.121.911.104 1.255.063.383-.045 1.174-.48 1.34-.943.165-.462.165-.858.116-.943-.05-.083-.182-.132-.38-.231z"/>
+            </svg>
+        </a>
+        <!-- AI Chat -->
+        <button class="fab-btn" onclick="toggleAIChatBox()" title="Chat with AI" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+                <circle cx="8" cy="8" r="8" fill="#fff"/>
+                <path d="M8 4.5a.5.5 0 0 1 .5.5v4.793l1.146-1.147a.5.5 0 1 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 9.793V5a.5.5 0 0 1 .5-.5z" fill="#ff512f"/>
+                <circle cx="8" cy="8" r="3" fill="#ff512f"/>
+            </svg>
+        </button>
+    </div>
+    <!-- AI Chat Box Floating Widget -->
+    <div class="ai-chatbox-float" id="aiChatBox">
+        <div class="ai-chatbox-header">
+            <span>AI Chat Assistant</span>
+            <span style="cursor:pointer;font-size:1.2rem;" onclick="document.getElementById('aiChatBox').style.display='none'">&times;</span>
+        </div>
+        <div class="ai-chatbox-body" id="aiChatBoxBody">
+            Hi! How can I help you today?
+        </div>
+        <div class="ai-chatbox-input">
+            <input type="text" id="aiChatInput" placeholder="Type your question..." onkeydown="if(event.key==='Enter'){sendAIChat();}">
+            <button onclick="sendAIChat()">Send</button>
+        </div>
+    </div>
+      
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    </script>
+</body>
+</html>
